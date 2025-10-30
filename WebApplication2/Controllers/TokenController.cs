@@ -16,6 +16,7 @@ public class TokenController : ControllerBase
     public TokenController(IConfiguration config)
     {
         _config = config;
+
     }
 
     [AllowAnonymous]
